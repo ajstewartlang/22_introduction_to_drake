@@ -1,0 +1,46 @@
+---
+title: "Introduction to Drake"
+author: "Andrew Stewart, Email: drandrewjstewart@gmail.com, Twitter: @ajstewart_lang"
+date: ""
+output: 
+  html_document:
+    theme: flatly
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+Welcome to...
+
+&nbsp;&nbsp;
+
+<center>
+
+<iframe width="560" height="315" src="https://youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
+
+</center>
+
+&nbsp;&nbsp;
+
+## Slides
+
+You can download the slides in .odp format by clicking [here](../slides/introduction_to_drake.odp) and in .pdf format by clicking on the image below. 
+&nbsp;&nbsp;
+
+<center>
+
+[![Link to Drake slides](../images/drake.png){width=75%}](../slides/introduction_to_drake.pdf)
+
+</center>
+
+&nbsp;&nbsp;
+
+
+## Improve this Workshop
+
+If you spot any issues/errors in this workshop, you can raise an issue or create a pull request for [this repo](https://github.com/ajstewartlang/01_open_research_and_reproducibility). 

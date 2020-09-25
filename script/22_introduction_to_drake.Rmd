@@ -47,4 +47,4 @@ https://youtu.be/jU1Zv21GvT4
 
 ## Improve this Workshop
 
-If you spot any issues/errors in this workshop, you can raise an issue or create a pull request for [this repo](https://github.com/ajstewartlang/01_open_research_and_reproducibility). 
+If you spot any issues/errors in this workshop, you can raise an issue or create a pull request for [this repo](https://github.com/ajstewartlang/22_introduction_to_drake). 

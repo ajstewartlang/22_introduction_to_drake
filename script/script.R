@@ -34,7 +34,7 @@ my_walk_plot <- function(x) {
     labs(title = "% of Walkers by City Size",
          x = "City Size",          
          y = "Percent of Walkers") +     
-    theme(text = element_text(size = 12))  
+    theme(text = element_text(size = 12))
 }
 
 desc_stats <- function(x) {     
@@ -51,3 +51,12 @@ my_plan <- drake_plan(commute_mode = read_my_data(),
                       fit = lm(percent ~ city_size, 
                                data = filter(commute_mode, mode == "Walk")),   
                       summary_fit = summary(fit))                                                                                                         
+
+my_plan
+
+config <- drake_config(my_plan) 
+vis_drake_graph(my_plan)
+
+make(my_plan)
+
+drake_history(analyze = TRUE)

@@ -34,7 +34,8 @@ my_walk_plot <- function(x) {
     labs(title = "% of Walkers by City Size",
          x = "City Size",          
          y = "Percent of Walkers") +     
-    theme(text = element_text(size = 12))
+    theme(text = element_text(size = 12)) +
+    coord_flip()
 }
 
 desc_stats <- function(x) {     

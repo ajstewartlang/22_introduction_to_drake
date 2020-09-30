@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Introduction
 
-Welcome to...
+When you've written a long script that contains many steps, you probably won't want to re-run the entire script when you've changed just one tiny bit of code. You could manually re-run the bit of code that has changed, and any subsequent code chunks that depend on that - but as your script becomes more complez it can be really hard to keep track of what bits of your script need to be re-run and what bits don't. Indeed, you might make a change to part of your code and then *forget* to re-run the code chunk which includes the change - and then you can get really confused as to why that change hasn't done what you were expecting it to do. Various functions in the {drake} package have been designed to keep track of all of this for you. Using {drake}, you can specify a plan which describes your workflow and how the functions you've written to carry out the steps of your data analysis map onto *targets* in your plan. It's actually a lot simpler than I've probably made it sound. Make sure you've gone through the session on Writing Functions before watching this video introducing {drake} for reproducible workflows.
 
 &nbsp;&nbsp;
 
@@ -29,12 +29,12 @@ Welcome to...
 
 ## Slides
 
-You can download the slides in .odp format by clicking [here](../slides/introduction_to_drake.odp) and in .pdf format by clicking on the image below. 
+You can download the slides in .odp format by clicking [here](../slides/drake_slides.odp) and in .pdf format by clicking on the image below. 
 &nbsp;&nbsp;
 
 <center>
 
-[![Link to Drake slides](../images/drake.png){width=75%}](../slides/introduction_to_drake.pdf)
+[![Link to Drake slides](../images/drake.png){width=75%}](../slides/drake_slides.pdf)
 
 </center>
 
@@ -43,6 +43,7 @@ You can download the slides in .odp format by clicking [here](../slides/introduc
 Add Miles McBain talk
 
 https://youtu.be/jU1Zv21GvT4
+
 
 
 ## Improve this Workshop

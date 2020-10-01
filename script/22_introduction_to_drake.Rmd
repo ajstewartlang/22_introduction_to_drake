@@ -56,6 +56,10 @@ Below is a great talk on {drake} by Miles McBain (@MilesMcBain)at the New York O
 
 You can access Miles' slides [here](https://nyhackr.blob.core.windows.net/presentations/Miles%20McBain%20-%20That%20feeling%20of%20workflowing.pdf).
 
+## Your Challenge
+
+Using either a script that you have written previously, or a new bit of code with a Tidy Tuesday dataset - or in-built dataset (e.g., Star Wars) - write a set of functions to (e.g.) read in the data, wrangle it as appropriate, visualise it, and build a linear model. With these functions, create a drake plan, make it, visualise the dependencies, and inspect the targets using the `readd()` function. Modify one of your functions, run the function code, and then look to see how things have changed in your dependency visualisation. You should see that the function that you modified is now represented as a black circle and labelled "Outdated". 
+
 ## Improve this Workshop
 
 If you spot any issues/errors in this workshop, you can raise an issue or create a pull request for [this repo](https://github.com/ajstewartlang/22_introduction_to_drake). 

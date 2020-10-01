@@ -40,11 +40,21 @@ You can download the slides in .odp format by clicking [here](../slides/drake_sl
 
 &nbsp;&nbsp;
 
-Add Miles McBain talk
+## Additional Resources
 
-https://youtu.be/jU1Zv21GvT4
+Below is a great talk on {drake} by Miles McBain (@MilesMcBain)at the New York Open Statistical Programming Meetup, August 2020. 
 
+&nbsp;&nbsp;
 
+<center>
+
+<iframe width="560" height="315" src="https://youtube.com/embed/jU1Zv21GvT4" frameborder="0" allowfullscreen></iframe>
+
+</center>
+
+&nbsp;&nbsp;
+
+You can access Miles' slides [here](https://nyhackr.blob.core.windows.net/presentations/Miles%20McBain%20-%20That%20feeling%20of%20workflowing.pdf).
 
 ## Improve this Workshop
 
